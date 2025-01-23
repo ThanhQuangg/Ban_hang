@@ -1,0 +1,103 @@
+/* General styles for the order management page */
+.order-management {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Form container */
+  .form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* Product input styles */
+  .product-input {
+    display: flex;
+    flex-direction: column; /* Arrange elements vertically */
+    margin-bottom: 15px; /* Add space between product fields */
+    width: 100%;
+  }
+  
+  .product-input select,
+  .product-input input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .product-input select {
+    background-color: #f9f9f9;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Order list styles */
+  .order-list {
+    margin-top: 30px;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .order-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .order-item div {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .order-item ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .order-item ul li {
+    margin-bottom: 5px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .form {
+      width: 100%;
+    }
+  
+    .product-input select,
+    .product-input input {
+      font-size: 14px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  }
+  

@@ -1,0 +1,23 @@
+.product-management {
+    background   : white;
+    padding      : 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow   : 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    display      : flex;
+    gap          : 1rem;
+    margin-bottom: 1rem;
+}
+
+.product-list {
+    list-style: none;
+    padding   : 0;
+}
+
+.product-item {
+    padding      : 0.5rem;
+    border-bottom: 1px solid #ddd;
+}
